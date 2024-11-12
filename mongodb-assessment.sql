@@ -126,7 +126,7 @@ o	Insert 5 customer documents into the customers collection.
 		{ "_id": ObjectId(), "order_id": "ORD123015", "customer_id": ObjectId('67338368e26dc70df50d8199'), "order_date": ISODate("2023-06-18T14:50:00Z"), "status": "shipped",   "items": [{ "product_name": "Headphones", "quantity": 1, "price": 1200 }, { "product_name": "Charger", "quantity": 1, "price": 300 }], "total_value": 1500 }
 	]);
 	
-    output:
+    	output:
 		{
 		  acknowledged: true,
 		  insertedIds: {
@@ -522,7 +522,7 @@ Scenario: You are working as a MongoDB developer for an e-commerce platform. The
 		  registration_date: ISODate('2023-02-15T12:00:00.000Z')
 		}
 
-	assignmentdb> db.orders.findOne({ "order_id": "ORD123016" });
+	sampledb> db.orders.findOne({ "order_id": "ORD123016" });
 	output:
 		{
 		  _id: ObjectId('67339732e26dc70df50d81a1'),
